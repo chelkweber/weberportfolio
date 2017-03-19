@@ -1,0 +1,113 @@
+body {
+    color: #434343;
+    background-color: #f3f3f3;
+    font-family: 'Quattrocento Sans', sans-serif;
+    text-align: center;
+    margin: 0px auto;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 940px;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.hero-area {
+    background-color: #434343;
+    opacity: 0.8;
+}
+
+header {
+    max-width: 940px;
+    margin: 0;
+    padding: 20px 0px 20px 0px;
+    background-color: #434343;
+    
+}
+
+#logo {
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+nav a{
+    display: inline;
+    margin: 2% 5% 2% 5%; 
+    text-decoration: none;
+    color: #fc405c;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+main {
+    max-width: 940px;
+    background-color: #f3f3f3;
+}
+
+#about-info {
+    width: 60%;
+    float: left;
+    margin-left: 5%;
+}
+
+#about-info h2 {
+    font-family: 'Poiret One', cursive;
+    text-align: left;
+    color: #fc405c;
+}
+
+#about-info p {
+    text-align: justify;
+}
+
+#about-img img{
+    width: 25%;
+    height: auto;
+    float: left;
+    border-radius: 50%;
+    -webkit-filter: opacity(.8);
+    margin: 5%;
+    }
+
+#quote {
+    clear: both;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    padding: 20px;
+}
+
+#quote h3 {
+    margin-left: 60%; 
+    font-size: 16px;
+    font-variant: small-caps;
+    padding: 0;
+    line-height: 30%;
+}
+
+footer {
+    clear: both;
+    background-color: #fc405c;
+    max-width: 940px;
+    position:absolute;
+    bottom:0;
+}
+
+#contact img {
+    display: inline-block;
+    width: 3%;
+    margin: 1% 5% 1% 5%;
+}
+
+#contact img:hover {
+    opacity: 0.25;
+}
+  
+

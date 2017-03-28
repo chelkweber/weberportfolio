@@ -1,7 +1,7 @@
 body {
     color: #434343;
     background-color: #f3f3f3;
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
     margin: 0px auto;
     padding: 0;
@@ -13,43 +13,69 @@ body {
     margin: 0px auto;
 }
 
-.hero-area {
-    background-color: #434343;
-    opacity: 0.8;
-}
-
 header {
     max-width: 940px;
     margin: 0;
     padding: 20px 0px 20px 0px;
     background-color: #434343;
-    
+    opacity: 0.8;
+    color: #f3f3f3;
 }
 
 #logo {
-    font-family: 'Poiret One', cursive;
-    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 40px;
-    color: #ffffff;
-}
-
-nav a{
-    display: inline;
-    margin: 2% 5% 2% 5%; 
-    text-decoration: none;
-    color: #fc405c;
-    font-size: 20px;
+    color: #f3f3f3;
     font-variant: small-caps;
+    font-weight: lighter;
 }
 
-nav a:hover {
-    color: #ffffff;
+
+header span:hover {
+    color: #fc405c;
 }
 
-main {
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #434343;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f3f3f3;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sidenav a:hover, offcanvas a:focus {
+    color: #fc405c;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
     max-width: 940px;
     background-color: #f3f3f3;
+    transition: margin-left .5s;
+    padding: 16px;
 }
 
 #about-info {
@@ -59,7 +85,7 @@ main {
 }
 
 #about-info h2 {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Raleway', sans-serif;
     text-align: left;
     color: #fc405c;
 }
@@ -79,7 +105,7 @@ main {
 
 #quote {
     clear: both;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     padding: 20px;
 }
@@ -96,8 +122,8 @@ footer {
     clear: both;
     background-color: #fc405c;
     max-width: 940px;
-    position:absolute;
-    bottom:0;
+    position: inherit;
+    bottom: 0;
 }
 
 #contact img {
